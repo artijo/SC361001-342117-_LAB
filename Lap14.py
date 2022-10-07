@@ -1,15 +1,7 @@
-count = 0
-sum_rub = int()
-count_rub = int()
-sum_pen = int()
-count_pen = int()
-sum_pap = int()
-count_pap = int()
-order = int()
+count, sum_rub, count_rub, sum_pen, count_pen, sum_pap, count_pap, order = 0, 0, 0, 0, 0, 0, 0, 0
 
 try:
     f = open('sales.txt', 'r+')
-    f.seek(0,0)
     for l in f.readlines():
         l = l.strip()
         count+=1
